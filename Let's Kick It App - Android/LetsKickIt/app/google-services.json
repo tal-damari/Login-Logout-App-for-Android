@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "705245027266",
+    "project_id": "let-s-kick-it",
+    "storage_bucket": "let-s-kick-it.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705245027266:android:f958e69d5a611779b4d45b",
+        "android_client_info": {
+          "package_name": "com.example.letskickit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705245027266-b6mnevfahcno2r3f9ensuk3euk5q5jpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6DHouAIa8cDbsobDplH5urAJErGFouDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705245027266-b6mnevfahcno2r3f9ensuk3euk5q5jpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background = "@drawable/backgroundforfrag">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/cardview_default_radius"
+            android:id="@+id/TextViewWelcomeMessage"
+            android:background="@drawable/buttonstyle"
+            android:textSize="30sp"
+            android:text = "Welcome"
+            android:textColor="@color/black"
+            ></TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_marginTop="300sp"
+            android:textSize="20sp"
+            android:background="@drawable/buttonstyle"
+            android:text="Log Out"
+            android:id="@+id/LogOutButton"
+            ></Button>
+
+    </LinearLayout>
+
+</FrameLayout>
